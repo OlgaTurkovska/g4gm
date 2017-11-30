@@ -4,3 +4,4 @@
 *.tif
 *.asc
 **/g4gm-test-NPP-MAI/**
+**/g4gm-output/**
