@@ -3,3 +3,4 @@
 *.csv
 *.tif
 *.asc
+**/g4gm-test-NPP-MAI/**
