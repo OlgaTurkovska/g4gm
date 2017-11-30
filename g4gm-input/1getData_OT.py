@@ -78,7 +78,7 @@ grass.mapcalc("del2 = col()", overwrite=True)
 # MODIS water mask 2000, measurement units-?
 grass.mapcalc("del3 = if(waterLandModis30Sec == 16, null(), waterLandModis30Sec)", waterLandModis30Sec='waterLandModis30Sec', overwrite=True)
 
-# FINISED: READING INPUT FILES 
+# FINISHED: READING INPUT FILES 
 
 print('Writing the output file...')
 grass.read_command('r.out.xyz', input=['del1','del2','del3','del0_0','del0_1','del0_2','del0_3','del4','del5','del6','del7',
